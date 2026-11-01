@@ -33,6 +33,7 @@ kind: Service
 metadata:
   name: frontend
 spec:
+  type: LoadBalancer
   selector: {app: frontend}
   ports:
   - port: 8080
