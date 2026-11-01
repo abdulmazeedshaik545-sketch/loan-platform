@@ -105,7 +105,7 @@ spec:
     spec:
       containers:
       - name: customer-service
-        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/customer-service:22
+        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/customer-service:23
         ports: [{containerPort: 8080}]
         readinessProbe:
           httpGet: {path: /health, port: 8080}
