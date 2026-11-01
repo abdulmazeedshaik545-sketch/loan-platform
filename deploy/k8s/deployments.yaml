@@ -54,7 +54,7 @@ spec:
     spec:
       containers:
       - name: loan-service
-        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/loan-service:22
+        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/loan-service:23
         ports: [{containerPort: 8080}]
         readinessProbe:
           httpGet: {path: /health, port: 8080}
