@@ -142,7 +142,7 @@ spec:
     spec:
       containers:
       - name: document-service
-        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/document-service:1.0.0
+        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/document-service:22
         ports: [{containerPort: 8080}]
         readinessProbe:
           httpGet: {path: /health, port: 8080}
