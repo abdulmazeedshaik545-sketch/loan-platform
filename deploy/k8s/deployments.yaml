@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/frontend:1.0.0
+        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/frontend:22
         ports: [{containerPort: 8080}]
         readinessProbe:
           httpGet: {path: /health, port: 8080}
