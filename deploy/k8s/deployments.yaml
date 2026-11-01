@@ -181,7 +181,7 @@ spec:
     spec:
       containers:
       - name: notification-service
-        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/notification-service:22
+        image: us-central1-docker.pkg.dev/project-kuber-513108/loan-platform/notification-service:23
         ports: [{containerPort: 8080}]
         readinessProbe:
           httpGet: {path: /health, port: 8080}
